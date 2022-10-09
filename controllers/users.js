@@ -3,9 +3,9 @@ const userForm = require("../models/userModel");
 
 function addDataCtrl(req, res) {
     let userData = userForm.userModel({
-      Name: req.body.Name,
-      Email: req.body.Email,
-      Comment: req.body.Comment
+      Name: req.body.name,
+      Email: req.body.email,
+      Comment: req.body.comment
       
     });
    
